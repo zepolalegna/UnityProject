@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -17,5 +18,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
+        
+        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime)
     }
 }
