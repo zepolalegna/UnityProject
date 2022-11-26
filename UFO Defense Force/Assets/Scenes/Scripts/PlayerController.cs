@@ -17,8 +17,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Set horizontalInput to receive values from horizontal
         horizontalInput = Input.GetAxis("Horizontal");
         
-        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime)
+        //Moves player left and right
+        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
     }
 }
