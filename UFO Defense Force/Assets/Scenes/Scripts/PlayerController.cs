@@ -17,10 +17,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Set horizontalInput to receive values from horizontal
+        
         horizontalInput = Input.GetAxis("Horizontal");
         
-        //Moves player left and right
+        
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+
+        if(transform.position.x < -15 )
+        {
+            transform.position = new Vector3(-15, transform.position.y, transform.position.z); 
+        }
     }
 }
