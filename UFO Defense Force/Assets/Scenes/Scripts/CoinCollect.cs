@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,5 +15,14 @@ public class CoinCollect : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "player")
+        {
+            //add 1 to points
+            Destroy(gameObject); // this destroys things
+        }
     }
 }
