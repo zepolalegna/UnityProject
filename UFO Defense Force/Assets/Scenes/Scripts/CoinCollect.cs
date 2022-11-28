@@ -16,13 +16,5 @@ public class CoinCollect : MonoBehaviour
     {
         
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.name == "player")
-        {
-            //add 1 to points
-            Destroy(gameObject); // this destroys things
-        }
-    }
+    
 }
