@@ -14,7 +14,14 @@ public class CoinCollect : MonoBehaviour
 
     public void OnTriggerEnter(Collider Col)
     {
-        if(Col.gameObject.tag == "Coin")
+        if (Col.gameObject.tag == "Coin")
+        {
+            Debug.Log("Coin Collected");
+            coins = coins + 1;
+            Col.gameObject.SetActive(false);
+        }
+        
+
     }
     // Update is called once per frame
     void Update()
