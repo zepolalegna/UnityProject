@@ -3,14 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOutOfBounds : MonoBehaviour
+public class Destroy : MonoBehaviour
 {
     public float topBounds = 30.0f;
 
     public float lowerbounds = -10.0f;
 
 
-    private void Awake()
+     void Awake()
     {
         //Time.timeScale = 1;
     }
