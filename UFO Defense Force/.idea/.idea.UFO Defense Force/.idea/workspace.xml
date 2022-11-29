@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80a7a371-d338-45b7-8ca4-caf3ea13638b" name="Changes" comment="" />
+    <list default="true" id="80a7a371-d338-45b7-8ca4-caf3ea13638b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UFO Defense Force/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UFO Defense Force/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ufo cruiser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ufo cruiser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ufo mothership.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ufo mothership.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ufo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ufo.prefab" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +15,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Scripts/CoinCollect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Scripts/DestroyOutOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Scripts/EnemySpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Scripts/MoveForward.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669431229820</updated>
-      <workItem from="1669431267763" duration="14747000" />
+      <workItem from="1669431267763" duration="17207000" />
     </task>
     <servers />
   </component>
