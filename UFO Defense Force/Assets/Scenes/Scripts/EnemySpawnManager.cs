@@ -14,7 +14,8 @@ public class EnemySpawnManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            Instantiate(ufoPrefabs[ufoIndex], new Vector3(0, 0, 15), ufoPrefabs[ufoIndex].transform.rotation);
+            int ufoIndex = Random.Range(0,ufoPrefabs.Length); //Picks a random UFO on array
+            Instantiate(ufoPrefabs[ufoIndex], new Vector3(0, 0, 15), ufoPrefabs[ufoIndex].transform.rotation); //Spawns a UFO from the array
         }
     }
 }
