@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9009710318175525833}
   - component: {fileID: 9009710318175525834}
   - component: {fileID: 190639853518542396}
+  - component: {fileID: -2707993116809924375}
   m_Layer: 0
   m_Name: ufo
   m_TagString: Untagged
@@ -111,3 +112,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 35
+--- !u!114 &-2707993116809924375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009710318175525835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad401ebe6a79644aa35c734e3e1e0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBounds: 50
+  lowerbounds: -80

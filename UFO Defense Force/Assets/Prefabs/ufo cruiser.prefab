@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 608429509388788913}
   - component: {fileID: 4994464976674002691}
   - component: {fileID: 4442442124195929338}
+  - component: {fileID: -8299100585947965718}
   m_Layer: 0
   m_Name: ufo cruiser
   m_TagString: Untagged
@@ -111,3 +112,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 25
+--- !u!114 &-8299100585947965718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451594535988878749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad401ebe6a79644aa35c734e3e1e0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBounds: 50
+  lowerbounds: -80
