@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6470560204765653246}
   - component: {fileID: 1329618811776214637}
   - component: {fileID: -1420153945189399969}
+  - component: {fileID: 8320469487374723819}
   m_Layer: 0
   m_Name: ufo mothership
   m_TagString: Untagged
@@ -94,7 +95,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3290233128826395015}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5085364
@@ -126,3 +127,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBounds: 50
   lowerbounds: -80
+--- !u!54 &8320469487374723819
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3290233128826395015}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
