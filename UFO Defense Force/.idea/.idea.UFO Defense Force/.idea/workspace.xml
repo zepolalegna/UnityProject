@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80a7a371-d338-45b7-8ca4-caf3ea13638b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UFO Defense Force/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UFO Defense Force/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/DetectCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scripts/DetectCollision.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mainmenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mainmenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669431229820</updated>
-      <workItem from="1669431267763" duration="26718000" />
+      <workItem from="1669431267763" duration="27123000" />
     </task>
     <servers />
   </component>
