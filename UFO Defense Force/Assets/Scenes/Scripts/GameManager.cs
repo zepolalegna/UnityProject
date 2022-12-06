@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public bool isGameOver;
-    
+
     private GameObject gameOverText;
 
     void Awake()
@@ -17,24 +17,23 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        gameOverText = GameObject.Find("Game Over");
+        gameOverText = GameObject.Find("GameOverText");
         
     }
-
+    //Update is called once per frame
     void Update()
     {
-        if (isGameOver)
+        if(isGameOver)
         {
-            EndGame();
+            EndGame(); //Start endgame method
         }
         else
-            gameOverText.gameObject.SetActive(false);
+            gameOverText.gameObject.SetActive(false); //Keep UI Text hidden
     }
 
     public void EndGame()
     {
         gameOverText.gameObject.SetActive(true);
-        Time.timeScale = 0;
+        Time.timeScale = 0; //freeze time
     }
 }
- 
