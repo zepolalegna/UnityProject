@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public bool isGameOver;
+    
     private GameObject gameOverText;
 
     void Awake()
@@ -36,3 +37,4 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
     }
 }
+ 
