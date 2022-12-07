@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
             gameOverText.gameObject.SetActive(false); //Keep UI Text hidden
     }
 
-    public void EndGame()
+    void EndGame()
     {
         gameOverText.gameObject.SetActive(true);
         Time.timeScale = 0; //freeze time

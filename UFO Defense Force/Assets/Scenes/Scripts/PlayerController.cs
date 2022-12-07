@@ -15,6 +15,13 @@ public class PlayerController : MonoBehaviour
     public Transform blaster;
 
     public GameObject laserBolt;
+
+    public GameManager gameManager;
+
+    void Start()
+    {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>(); //Reference GameManger script on GameManager object
+    }
     
 
     // Update is called once per frame
@@ -35,7 +42,7 @@ public class PlayerController : MonoBehaviour
             transform.position = new UnityEngine.Vector3(xRange, transform.position.y, transform.position.z); 
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && gameManager.isGameOver == false)
         {
             Instantiate(laserBolt, blaster.position, laserBolt.transform.rotation);
         }
