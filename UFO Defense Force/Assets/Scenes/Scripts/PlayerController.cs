@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     public GameManager gameManager;
 
+    [SerializeField] private AudioSource LazerSound;
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>(); //Reference GameManger script on GameManager object
@@ -44,6 +45,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && gameManager.isGameOver == false)
         {
+            LazerSound.Play();
             Instantiate(laserBolt, blaster.position, laserBolt.transform.rotation);
         }
     }
