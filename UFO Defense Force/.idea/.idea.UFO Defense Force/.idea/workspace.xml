@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80a7a371-d338-45b7-8ca4-caf3ea13638b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UFO Defense Force/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UFO Defense Force/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ufo cruiser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ufo cruiser.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/DetectCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scripts/DetectCollision.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
