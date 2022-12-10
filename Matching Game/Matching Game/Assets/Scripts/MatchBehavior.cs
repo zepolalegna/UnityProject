@@ -8,8 +8,6 @@ public class MatchBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         var tempObj = other.GetComponent<IDContainerBehavior>();
-        if (tempObj != null)
-            return;
         var otherID = tempObj.idObj;
         if (otherID == idObj)
         {
