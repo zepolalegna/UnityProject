@@ -7,7 +7,7 @@ public class DraggableBehavior : MonoBehaviour
 {
     private Camera cameraObj;
     public bool draggable;
-    public Vector3 position;
+    public Vector3 position, offset;
     void Start()
     {
         cameraObj = Camera.main;
@@ -15,6 +15,8 @@ public class DraggableBehavior : MonoBehaviour
 
     public IEnumerator OnMouseDown()
     {
+        offset = transform.position - cameraObj.ScreenToWorldPoint(Input.mousePosition);
+        yield return new WaitForFixedUpdate();
         draggable = true;
         while (draggable)
         {
