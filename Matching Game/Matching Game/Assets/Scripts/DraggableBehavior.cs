@@ -7,6 +7,7 @@ public class DraggableBehavior : MonoBehaviour
 {
     private Camera cameraObj;
     public bool draggable;
+    public Vector3 position;
     void Start()
     {
         cameraObj = Camera.main;
