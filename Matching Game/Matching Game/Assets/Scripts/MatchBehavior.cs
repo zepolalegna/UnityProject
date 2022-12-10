@@ -18,5 +18,9 @@ public class MatchBehavior : MonoBehaviour
         {
             Debug.Log("Matched");
         }
+        else
+        {
+            Debug.Log("No Match");
+        }
     }
 }
