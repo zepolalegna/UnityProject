@@ -22,7 +22,7 @@ public class DraggableBehavior : MonoBehaviour
         while (draggable)
         {
             yield return new WaitForFixedUpdate();
-            position = cameraObj.ScreenToWorldPoint(Input.mousePosition);
+            position = cameraObj.ScreenToWorldPoint(Input.mousePosition) + offset;
             transform.position = position;
         }
     }
