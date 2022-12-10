@@ -19,7 +19,7 @@ public class DraggableBehavior : MonoBehaviour
         while (draggable)
         {
             yield return new WaitForFixedUpdate();
-            Debug.Log("Drag");
+            position = cameraObj.ScreenToViewportPoint(Input.mousePosition);
         }
     }
 
