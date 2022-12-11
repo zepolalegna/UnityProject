@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Instancer : ScriptableObject
 {
-    public void CreatInstance(GameObject obj)
+    public void CreateInstance(GameObject obj)
     {
         Instantiate(obj);
     }
