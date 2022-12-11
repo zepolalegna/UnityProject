@@ -25,6 +25,27 @@ public class CoroutineBehavior : MonoBehaviour
             Debug.Log(counterNum);
         }
         endEvent.Invoke();
-        
-    }
+
+        public void StartCounting()
+        {
+            StartCoroutine(Counting());
+            
+        }
+
+        private IEnumerator Counting()
+        {
+            startCountEvent.Invoke;
+            yield return wfsObj;
+            while (counterNum.value > 0)
+            {
+                repeatCountEvent.Invoke;
+                counterNum.value--;
+                yield return wffuObj;
+            }
+            {
+                
+            }
+        }
+
+}
 }
