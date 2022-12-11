@@ -17,7 +17,7 @@ public class CoroutineBehavior : MonoBehaviour
         Debug.Log("Late Start");
         while (canRun)
         {
-            yield return wffuObj;
+            yield return wfsObj;
             Debug.Log("Run on Start");
         }
     }
