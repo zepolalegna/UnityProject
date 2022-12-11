@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CoroutineBehavior : MonoBehaviour
 {
+    public bool canRun = true;
     // Start is called before the first frame update
     IEnumerator Start()
     {
