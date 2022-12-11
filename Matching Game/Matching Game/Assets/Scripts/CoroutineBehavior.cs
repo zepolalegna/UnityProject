@@ -20,6 +20,7 @@ public class CoroutineBehavior : MonoBehaviour
         {
             yield return wfsObj;
             repeatEvent.Invoke();
+            counterNum--;
             Debug.Log(counterNum);
         }
         
